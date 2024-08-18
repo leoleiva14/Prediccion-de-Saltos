@@ -1,0 +1,14 @@
+Para compilar y ejecutar la tarea 1 de Predictores de Salto
+debe correr el siguiente comando:
+
+python3 branch_predictor.py -n X -g Y --bp Z
+*Puede variar segun version de Python instalada
+
+Donde X corresponde a la cantidad de bits del PC por indexar
+Donde Y corresponde a la cantidad de bits del registro de historia global o local
+Donde Z corresponde al predictor que se quiere probar:
+	-0:bimodal
+	-1:g-shared
+	-2:p-shared
+	-3:perceptron
+	-4:propuesto (No se debe agregar los argumentos -n y -g)
